@@ -32,12 +32,12 @@ presence.on("UpdateData", async () => {
 			let currentGenre = genreList[i].firstElementChild;
 			if (currentGenre.classList.contains('checkmark-checked')){
 				array.push(currentGenre.getAttribute('aria-label'));
-				const genres = array.join(', ');
-				presenceData.details = "Browsing genres";
-				presenceData.state = genres;
 			}
 		}
-	}
+		const genres = array.join(', ');
+		presenceData.details = "Browsing genres";
+		presenceData.state = genres;
+	}	
 	
     else if (document.location.pathname.includes("/users")) {
         presenceData.details = "Making friends";
