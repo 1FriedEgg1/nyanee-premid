@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.premid.app/metadata/1.5",
+  "author": {
+    "name": "Egg",
+    "id": "609276689226137600"
+  },
+  "contributors": [],
+  "service": "nyanee.vip",
+  "description": {
+    "en": "Anime streaming site"
+  },
+  "url": [
+    "nyanee.vip",
+    "www.nyanee.vip",
+    "express.nyanee.vip"
+  ],
+  "version": "0.1.1",
+  "logo": "https://i.imgur.com/KkQnJl9.png",
+  "thumbnail": "https://i.imgur.com/KkQnJl9.png",
+  "color": "#5E8AD0",
+  "tags": [
+    "nyanee",
+    "streaming"
+  ],
+  "category": "anime",
+  "regExp": "(|express\\.)nyanee\\.vip[/]"
+}
