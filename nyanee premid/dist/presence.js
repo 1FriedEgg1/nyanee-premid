@@ -20,6 +20,7 @@ presence.on("UpdateData", async () => {
             presenceData.smallImageKey = "pause";
             presenceData.smallImageText = "Paused";
         }
+        presenceData.buttons = [{ label: "Watch Episode", url: "https://nyanee.vip" + document.location.pathname }];
     }
 
     else if (document.location.pathname.includes("/browse")) {
